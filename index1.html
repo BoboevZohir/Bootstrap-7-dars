@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main1.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <h3 class="text-success text-center">GeeksforGeeks</h3>
+                <p class="text-dark text-center">Bootstrap | Open dropdown menu on hover</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-unstyled text-center">
+                    <li class="d-inline-block dropdown">
+                        <a href="#" class="dropdown-toggle">Menu</a>
+                    </li>
+                    <li class="d-inline-block">
+                        <a href="#" class="dropdown-toggle">Login</a>
+                    </li>
+                    <li class="d-inline-block">
+                        <a href="#" class="dropdown-toggle">Sign up</a>
+                    </li>
+                    <li class="d-inline-block">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">Algo</li>
+                            <li class="dropdown-item">Gate</li>
+                            <li class="dropdown-item">Subject</li>
+                            <li class="dropdown-item">Practise</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
